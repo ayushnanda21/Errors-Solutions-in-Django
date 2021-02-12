@@ -1,0 +1,10 @@
+1. Install python3
+
+2. Install virtual environemnt 
+Command: pip install virtualenv
+
+3.Create virtual environment 
+Command: virtualenv[name]
+
+4. Activate Virtual Environment
+Command : cd[name]/Scripts>activate
