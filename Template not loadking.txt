@@ -1,0 +1,5 @@
+If template does not load?
+
+In setting.py of project, in templates dirs write this ->
+
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
