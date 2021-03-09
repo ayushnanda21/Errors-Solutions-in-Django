@@ -1,0 +1,17 @@
+1. django-admin start project 'name'
+
+2. python manage.py startapp 'name'
+
+3. Make two folders static(for css,js, and images) and templates(for html files).
+
+4. In installed apps write the name of apps started.
+
+5. In settings.py in templates write this:
+
+'DIRS':['templates']
+
+6. For static set add this at last of settings.py;
+
+STATICFILES_DIRS = ['static']
+
+7. Python manage.py runserver
