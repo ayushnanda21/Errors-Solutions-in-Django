@@ -4,3 +4,8 @@ MEDIA_ROOT	=	os.path.join(BASE_DIR,	'media/')
 
 to deal with images:
 pip install pillow
+
+In urls.py of bookmarks project add 
+if	settings.DEBUG:
+	urlpatterns	+=	static(settings.MEDIA_URL,
+	document_root=settings.MEDIA_ROOT)
