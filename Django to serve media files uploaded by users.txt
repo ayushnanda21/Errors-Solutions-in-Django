@@ -1,0 +1,6 @@
+MEDIA_URL	=	'/media/'
+MEDIA_ROOT	=	os.path.join(BASE_DIR,	'media/')
+
+
+to deal with images:
+pip install pillow
