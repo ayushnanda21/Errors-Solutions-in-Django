@@ -1,0 +1,8 @@
+In admins.py
+
+
+
+
+from .models import ModelName
+
+admin.site.register(ModelName)
